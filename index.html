@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <meta
+    name="description"
+    content="CodeLearn — сучасні онлайн курси Python та JavaScript"
+  />
+  <title>CodeLearn | Python / JavaScript</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="#" class="logo">
+          <img
+            src="images/logo-header.svg"
+            alt="CodeLearn"
+            width="200"
+            height="100"
+          />
+        </a>
+        <nav
+          class="navigation"
+          aria-label="Основна навігація"
+        >
+          <ul class="navigation__list">
+            <li>
+              <a
+                class="navigation__link"
+                href="#about"
+              >
+                Про нас
+              </a>
+            </li>
+            <li>
+              <a
+                class="navigation__link"
+                href="#learning"
+              >
+                Навчання
+              </a>
+            </li>
+            <li>
+              <a
+                class="navigation__link"
+                href="#reviews"
+              >
+                Відгуки
+              </a>
+            </li>
+            <li>
+              <a
+                class="navigation__link"
+                href="#contact"
+              >
+                Контакти
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="burger"
+          type="button"
+          aria-label="Відкрити меню"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero__wrapper">
+          <article class="hero__content">
+
+            <div class="hero__badge">
+              Онлайн курси
+            </div>
+
+            <h1 class="hero__title">
+              Python /
+              <span>JavaScript</span>
+            </h1>
+
+            <p class="hero__description">
+              Вивчай сучасні технології та 
+              створюй проекти майбутнього
+            </p>
+
+            <div class="hero__features">
+              <div class="hero__feature">
+                <img
+                  src="images/icon-practice-projects.svg"
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+                <span>
+                  Практичні проєкти
+                </span>
+              </div>
+              <div class="hero__feature">
+                <img
+                  src="images/icon-support-1.svg"
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+                <span>
+                  Підтримка менторів
+                </span>
+              </div>
+
+              <div class="hero__feature">
+                <img
+                  src="images/icon-sertificate-1.svg"
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+                <span>
+                  Сертифікат по завершенню
+                </span>
+              </div>
+            </div>
+
+            <a
+              href="#modal-contact"
+              class="button button--primary"
+            >
+              Почати навчання
+            </a>
+          </article>
+
+          <div class="hero__image">
+            <img
+              class="hero__illustration"
+              src="images/picture-for-herosection.svg"
+              alt="Ілюстрація ноутбука"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="features section"
+      id="about"
+    >
+
+      <div class="container">
+        <div class="features__top">
+          <h2 class="section-title">
+            Про проєкт / навчання
+          </h2>
+
+          <p class="section-text">
+            Сучасні онлайн курси для тих, 
+            хто хоче опанувати Python або 
+            JavaScript з нуля або підвищити свій рівень.
+          </p>
+        </div>
+
+        <div class="features__grid">
+          <article class="card">
+            <img
+              class="card__icon"
+              src="images/icon-program.svg"
+              alt=""
+            />
+            <h3 class="card__title">
+              Актуальна програма
+            </h3>
+            <p class="card__text">
+              Курси створені практиками 
+              з досвідом роботи в IT.
+            </p>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__icon"
+              src="images/icon-practice.svg"
+              alt=""
+            />
+
+            <h3 class="card__title">
+              Практика з першого дня
+            </h3>
+            <p class="card__text">
+              Реальні завдання та проекти 
+              для твого портфоліо.
+            </p>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__icon"
+              src="images/icon-support-2.svg"
+              alt=""
+            />
+            <h3 class="card__title">
+              Підтримка спільноти
+            </h3>
+            <p class="card__text">
+              Спілкуйся, обмінюйся досвідом і знаходь однодумців.
+            </p>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__icon"
+              src="images/icon-sertificate-2.svg"
+              alt=""
+            />
+            <h3 class="card__title">
+              Сертифікат
+            </h3>
+            <p class="card__text">
+              Отримай сертифікат після 
+              успішного завершення курсу.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="steps section"
+      id="learning"
+    >
+      <div class="container">
+        <h2 class="section-title">
+          Як проходить навчання
+        </h2>
+        <div class="steps__grid">
+          <article class="step">
+            <img
+              class="step__icon"
+              src="images/icon-online-lessons.svg"
+              alt=""
+            />
+            <h3 class="step__title">
+              Онлайн уроки
+            </h3>
+            <p class="step__text">
+              Доступні в записі 24/7
+            </p>
+          </article>
+          <article class="step">
+            <img
+              class="step__icon"
+              src="images/icon-practice-tasks.svg"
+              alt=""
+            />
+
+            <h3 class="step__title">
+              Практичні завдання
+            </h3>
+
+            <p class="step__text">
+              Закріплюй знання на практиці
+            </p>
+
+          </article>
+
+          <article class="step">
+            <img
+              class="step__icon"
+              src="images/icon-connection.svg"
+              alt=""
+            />
+            <h3 class="step__title">
+              Зворотній зв'язок
+            </h3>
+
+            <p class="step__text">
+              Отримуй фідбек від менторів
+            </p>
+          </article>
+
+          <article class="step">
+            <img
+              class="step__icon"
+              src="images/icon-final-project.svg"
+              alt=""
+            />
+            <h3 class="step__title">
+              Фінальний проєкт
+            </h3>
+            <p class="step__text">
+              Створи власний проект у портфоліо
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="testimonials section"
+      id="reviews"
+    >
+
+      <div class="container">
+        <h2 class="section-title">
+          Відгуки наших студентів
+        </h2>
+
+        <div class="testimonials__grid">
+          <article class="testimonial">
+            <div class="testimonial__top">
+              <div class="testimonial__avatar">
+                <img
+                  src="images/foto-andriy.svg"
+                  alt="Андрій"
+                />
+              </div>
+
+              <div>
+                <div class="testimonial__name">
+                  Андрій К.
+                </div>
+                <div class="testimonial__role">
+                  Python курс
+                </div>
+              </div>
+            </div>
+
+            <img
+              class="testimonial__stars"
+              src="images/icon-stars-andrii.svg"
+              alt="5 зірок"
+              width="120"
+            />
+
+            <p class="testimonial__text">
+              Чудовий курс! Все зрозуміло, 
+              багато практики і підтримка 
+              ментора на висоті.
+            </p>
+          </article>
+
+          <article class="testimonial">
+            <div class="testimonial__top">
+              <div class="testimonial__avatar">
+                <img
+                  src="images/foto-maria.svg"
+                  alt="Марія"
+                />
+              </div>
+              <div>
+                <div class="testimonial__name">
+                  Марія Л.
+                </div>
+                <div class="testimonial__role">
+                  JavaScript курс
+                </div>
+              </div>
+            </div>
+
+            <img
+              class="testimonial__stars"
+              src="images/icon-stars-maria.svg"
+              alt="5 зірок"
+              width="120"
+            />
+
+            <p class="testimonial__text">
+              Найкращий курс з JS, який я проходила. 
+              Реальні проекти та сучасні підходи.
+            </p>
+          </article>
+
+          <article class="testimonial">
+            <div class="testimonial__top">
+              <div class="testimonial__avatar">
+                <img
+                  src="images/foto-dmitriy.svg"
+                  alt="Дмитро"
+                />
+              </div>
+              <div>
+                <div class="testimonial__name">
+                  Дмитро С.
+                </div>
+                <div class="testimonial__role">
+                  Front-End курс
+                </div>
+              </div>
+            </div>
+            <img
+              class="testimonial__stars"
+              src="images/icon-stars-dmitriy.svg"
+              alt="5 зірок"
+              width="120"
+            />
+            <p class="testimonial__text">
+              Завдяки курсу отримав роботу мрії. 
+              Рекомендую всім, хто хоче увійти в ІТ!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta__box">
+          <div class="cta__content">
+            <h2 class="cta__title">
+              Готовий розпочати свій шлях у ІТ?
+            </h2>
+            <p class="cta__text">
+              Запишись на курс або підпишись на розсилку, 
+              щоб отримувати корисні матеріали та новини.
+            </p>
+
+          </div>
+
+          <div class="cta__buttons">
+            <a
+              href="#modal-contact"
+              class="button button--secondary"
+            >
+              Записатися на курс
+            </a>
+            <a
+              href="#modal-contact"
+              class="button button--outline"
+            >
+              Підписатися на розсилку
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer
+    class="footer"
+    id="contact"
+  >
+
+    <div class="container">
+      <div class="footer__wrapper">
+        <div>
+          <a href="#" class="logo">
+            <img
+              src="images/logo-footer.svg"
+              alt="CodeLearn"
+              width="200"
+              height="100"
+            />
+          </a>
+          <p class="footer__description">
+            Допомагаємо опанувати Python та 
+            JavaScript і розпочати кар’єру в ІТ.
+          </p>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            Навігація
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a
+                class="footer__link"
+                href="#home"
+              >
+                Головна
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="#about"
+              >
+                Про нас
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="#learning"
+              >
+                Навчання
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            Ресурси
+          </h3>
+
+          <ul class="footer__links">
+            <li>
+              <a
+                class="footer__link"
+                href="#"
+              >
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="#"
+              >
+                Блог
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="#"
+              >
+                Підтримка
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            Контакти
+          </h3>
+          <ul class="footer__links">
+            <li class="footer__link">
+              info@codelearn.com
+            </li>
+            <li class="footer__link">
+              +380 50 123 45 67
+            </li>
+            <li class="footer__link">
+              Львів, Україна
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copyright">
+          © 2026 CodeLearn. Усі права захищені.
+        </div>
+        <div class="socials">
+          <a
+            class="socials__link"
+            href="#modal-contact"
+            aria-label="Telegram"
+          >
+            <img
+              src="images/icon-telegram.svg"
+              alt=""
+              width="40"
+              height="30"
+            />
+          </a>
+          <a
+            class="socials__link"
+            href="#modal-contact"
+            aria-label="Youtube"
+          >
+            <img
+              src="images/icon-youtube.svg"
+              alt=""
+              width="40"
+              height="30"
+            />
+          </a>
+          <a
+            class="socials__link"
+            href="#modal-contact"
+            aria-label="Facebook"
+          >
+            <img
+              src="images/icon-facebook.svg"
+              alt=""
+              width="40"
+              height="30"
+            />
+          </a>
+          <a
+            class="socials__link"
+            href="#modal-contact"
+            aria-label="Instagram"
+          >
+            <img
+              src="images/icon-instagram.svg"
+              alt=""
+              width="40"
+              height="30"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <aside
+    class="modal"
+    id="modal-contact"
+  >
+    <div class="modal__content">
+      <a
+        href="#"
+        class="modal__close"
+        aria-label="Закрити"
+      >
+        ×
+      </a>
+      <h2 class="modal__title">
+        Зв'язатися з нами
+      </h2>
+      <p class="modal__text">
+        Введіть email та повідомлення,
+        і ми зв’яжемося з вами.
+      </p>
+      <form class="form">
+        <div class="form__field">
+          <label
+            class="form__label"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+
+        </div>
+
+        <div class="form__field">
+          <label
+            class="form__label"
+            for="message"
+          >
+            Повідомлення
+          </label>
+          <textarea
+            class="form__textarea"
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Ваше повідомлення..."
+            required
+          ></textarea>
+        </div>
+        <button
+          class="button button--primary form__button"
+          type="submit"
+        >
+          Надіслати
+        </button>
+      </form>
+    </div>
+  </aside>
+  <script src="script.js"></script>
+</body>
+</html>
